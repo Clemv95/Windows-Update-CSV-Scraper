@@ -8,7 +8,7 @@ def convert_json_to_csv(name,json_data):
     csv_file = '{}.csv'.format(name)
     csv_columns = json_data[0].keys()
     with open(csv_file, 'w', newline='',encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=csv_columns,delimiter=";")
+        writer = csv.DictWriter(csvfile, fieldnames=csv_columns,delimiter=",")
         writer.writeheader()
         for data in json_data:
             writer.writerow(data)

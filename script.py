@@ -37,7 +37,7 @@ def get_win_build_info(os_version, url):
                     row_dict['release_date'] = data.text
                     row_dict['release_date_format'] = datetime.strptime(data.text, "%Y-%m-%d").strftime("%B %Y").capitalize()
                 elif re.match('\d+\.\d+', data.text):
-                    row_dict['build_number'] = data.text
+                    row_dict['build_number'] = "10.0.{}".format(data.text)
                 elif re.match('KB\d+', data.text):
                     row_dict['kb'] = data.text
             if 'release_date' in row_dict:

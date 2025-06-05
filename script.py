@@ -42,6 +42,7 @@ def get_win_build_info(os_version, url):
                     row_dict['kb'] = data.text
             if 'release_date' in row_dict:
                 release_list.append(row_dict)
+            row_dict["full_version"] = "{} - {}".format(row_dict["os_major_version"],row_dict["release_full_name"])
         i = i + 1
     return release_list
 

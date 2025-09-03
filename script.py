@@ -44,6 +44,33 @@ def get_win_build_info(os_version, url):
                 release_list.append(row_dict)
             row_dict["full_version"] = "{} - {}".format(row_dict["os_major_version"],row_dict["release_full_name"])
         i = i + 1
+    tables = soup.find_all("table",id=lambda x: x and x.startswith('HotpatchCalendar'))
+    for table in tables:
+        rows = table.find_all('tr')
+        for row in rows:
+            row_dict = {
+                'os_major_version' : os_version,
+                'feature_release_version': release_names[-1].split(' ')[1],
+                'release_full_name': release_names[-1]
+            }
+            cols = row.find_all('td')
+            process = True
+            for element in cols:
+                if "Baseline" in element:
+                    process = False
+            if process:
+                for data in cols:
+                    if re.match('\d+-\d+-\d+', data.text):
+                        row_dict['release_date'] = data.text
+                        row_dict['release_date_format'] = datetime.strptime(data.text, "%Y-%m-%d").strftime("%B %Y").capitalize()
+                    elif re.match('\d+\.\d+', data.text):
+                        row_dict['build_number'] = "10.0.{}".format(data.text)
+                    elif re.match('KB\d+', data.text):
+                        row_dict['kb'] = data.text
+                if 'release_date' in row_dict:
+                    release_list.append(row_dict)
+                row_dict["full_version"] = "{} - {}".format(row_dict["os_major_version"],row_dict["release_full_name"])
+    
     return release_list
 
 def main():

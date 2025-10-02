@@ -6,7 +6,7 @@ import csv
 
 def convert_json_to_csv(name,json_data):
     csv_file = '{}.csv'.format(name)
-    csv_columns = json_data[0].keys()
+    csv_columns = ["os_major_version","feature_release_version","release_full_name","release_date","release_date_format","build_number","full_version","kb"]
     with open(csv_file, 'w', newline='',encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=csv_columns,delimiter=",")
         writer.writeheader()

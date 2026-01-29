@@ -76,6 +76,16 @@ def get_win_build_info(os_version, url):
 def main():
     win10_builds = get_win_build_info("Windows 10", 'https://learn.microsoft.com/en-us/windows/release-health/release-information')
     win11_builds = get_win_build_info("Windows 11", 'https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information')
+    win11_builds.append({
+  "os_major_version": "Windows 11",
+  "feature_release_version": "25H2",
+  "release_full_name": "Version 25H2 (OS build 26200)",
+  "release_date": "2026-01-24",
+  "release_date_format": "January 2026",
+  "build_number": "10.0.26200.7634",
+  "full_version": "Windows 11 - Version 25H2 (OS build 26200)",
+  "kb": "KB5078167"
+    })
     convert_json_to_csv("win10_builds",win10_builds)
     convert_json_to_csv("win11_builds",win11_builds)
 

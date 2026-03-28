@@ -1,8 +1,11 @@
 os_major_version,feature_release_version,release_full_name,release_date,release_date_format,build_number,full_version,kb
+Windows 11,26H1,Version 26H1 (OS build 28000),2026-03-26,March 2026,10.0.28000.1764,Windows 11 - Version 26H1 (OS build 28000),KB5079489
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-03-10,March 2026,10.0.28000.1719,Windows 11 - Version 26H1 (OS build 28000),KB5079466
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-02-24,February 2026,10.0.28000.1643,Windows 11 - Version 26H1 (OS build 28000),KB5077239
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-02-10,February 2026,10.0.28000.1575,Windows 11 - Version 26H1 (OS build 28000),KB5077179
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-02-10,February 2026,10.0.28000.1,Windows 11 - Version 26H1 (OS build 28000),
+Windows 11,25H2,Version 25H2 (OS build 26200),2026-03-26,March 2026,10.0.26200.8116,Windows 11 - Version 25H2 (OS build 26200),KB5079391
+Windows 11,25H2,Version 25H2 (OS build 26200),2026-03-21,March 2026,10.0.26200.8039,Windows 11 - Version 25H2 (OS build 26200),KB5085516
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-03-10,March 2026,10.0.26200.8037,Windows 11 - Version 25H2 (OS build 26200),KB5079473
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-02-24,February 2026,10.0.26200.7922,Windows 11 - Version 25H2 (OS build 26200),KB5077241
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-02-10,February 2026,10.0.26200.7840,Windows 11 - Version 25H2 (OS build 26200),KB5077181
@@ -17,6 +20,8 @@ Windows 11,25H2,Version 25H2 (OS build 26200),2025-10-28,October 2025,10.0.26200
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-10-20,October 2025,10.0.26200.6901,Windows 11 - Version 25H2 (OS build 26200),KB5070773
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-10-14,October 2025,10.0.26200.6899,Windows 11 - Version 25H2 (OS build 26200),KB5066835
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-09-30,September 2025,10.0.26200.6584,Windows 11 - Version 25H2 (OS build 26200),
+Windows 11,24H2,Version 24H2 (OS build 26100),2026-03-26,March 2026,10.0.26100.8116,Windows 11 - Version 24H2 (OS build 26100),KB5079391
+Windows 11,24H2,Version 24H2 (OS build 26100),2026-03-21,March 2026,10.0.26100.8039,Windows 11 - Version 24H2 (OS build 26100),KB5085516
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-03-10,March 2026,10.0.26100.8037,Windows 11 - Version 24H2 (OS build 26100),KB5079473
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-02-24,February 2026,10.0.26100.7922,Windows 11 - Version 24H2 (OS build 26100),KB5077241
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-02-10,February 2026,10.0.26100.7840,Windows 11 - Version 24H2 (OS build 26100),KB5077181

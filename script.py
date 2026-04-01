@@ -116,6 +116,46 @@ def main():
   "full_version": "Windows 11 - Version 25H2 (OS build 26200)",
   "kb": "KB5084897"
     })
+    win11_builds.append({
+  "os_major_version": "Windows 11",
+  "feature_release_version": "25H2",
+  "release_full_name": "Version 25H2 (OS build 26100)",
+  "release_date": "2026-03-13",
+  "release_date_format": "March 2026",
+  "build_number": "10.0.26100.7982",
+  "full_version": "Windows 11 - Version 25H2 (OS build 26100)",
+  "kb": "KB5084597"
+    })
+    win11_builds.append({
+  "os_major_version": "Windows 11",
+  "feature_release_version": "25H2",
+  "release_full_name": "Version 25H2 (OS build 26200)",
+  "release_date": "2026-03-13",
+  "release_date_format": "March 2026",
+  "build_number": "10.0.26200.7982",
+  "full_version": "Windows 11 - Version 25H2 (OS build 26200)",
+  "kb": "KB5084597"
+    })
+    win11_builds.append({
+  "os_major_version": "Windows 11",
+  "feature_release_version": "25H2",
+  "release_full_name": "Version 25H2 (OS build 26100)",
+  "release_date": "2026-03-23",
+  "release_date_format": "March 2026",
+  "build_number": "10.0.26100.7985",
+  "full_version": "Windows 11 - Version 25H2 (OS build 26100)",
+  "kb": "KB5085518"
+    })
+    win11_builds.append({
+  "os_major_version": "Windows 11",
+  "feature_release_version": "25H2",
+  "release_full_name": "Version 25H2 (OS build 26200)",
+  "release_date": "2026-03-23",
+  "release_date_format": "March 2026",
+  "build_number": "10.0.26200.7985",
+  "full_version": "Windows 11 - Version 25H2 (OS build 26200)",
+  "kb": "KB5085518"
+    })
     convert_json_to_csv("win10_builds",win10_builds)
     convert_json_to_csv("win11_builds",win11_builds)
 

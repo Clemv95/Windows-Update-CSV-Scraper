@@ -177,7 +177,6 @@ def parse_release_page(html: str, os_name: str, version: str, page_url: str) -> 
             href = "https://support.microsoft.com" + href
 
         if parsed["update_type"] != "Baseline" and not (version == "24H2" and parsed["build_24h2"] == '') and not (version == "25H2" and parsed["build_25h2"] == ''):
-            print(parsed,version)
             rows.append({
                 "os_major_version":                  os_name,
                 "feature_release_version":             version,

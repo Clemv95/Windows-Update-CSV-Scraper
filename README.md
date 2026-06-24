@@ -1,42 +1,39 @@
 # Windows Release Info Scraper
 
-Ce dépôt contient un script Python pour extraire les informations de versions et de mises à jour de Windows 10 et Windows 11 à partir de la documentation officielle de Microsoft.
+This repository contains a Python script to extract version and update information for Windows 10 and Windows 11 from Microsoft's official documentation.
 
-## Fonctionnalités
+## Features
 
-- Scraping des numéros de build, dates de sortie, et KB associés.
-- Génération de fichiers CSV (`win10_builds.csv` et `win11_builds.csv`).
-- Exécution automatique quotidienne via GitHub Actions.
-- Commit automatique des fichiers CSV mis à jour.
+- Scraping of build numbers, release dates, and associated KBs.
+- Generation of CSV files (`win10_builds.csv` and `win11_builds.csv`).
+- Automatic daily execution via GitHub Actions.
+- Automatic commit of updated CSV files.
 
+  
 ## Structure
-
 ```
 .
-├── script.py              # Script principal
-├── requirements.txt       # Dépendances Python
-├── win10_builds.csv       # Résultat du scraping Windows 10
-├── win11_builds.csv       # Résultat du scraping Windows 11
+├── script.py              # Main script
+├── requirements.txt       # Python dependencies
+├── win10_builds.csv       # Windows 10 scraping output
+├── win11_builds.csv       # Windows 11 scraping output
 └── .github/
     └── workflows/
-        └── schedule.yml   # Workflow GitHub Actions
+        └── schedule.yml   # GitHub Actions workflow
 ```
 
-## Exécution manuelle
+## Manual Execution
 
-Tu peux aussi lancer le workflow manuellement depuis l’onglet **Actions** de GitHub.
+You can also trigger the workflow manually from the **Actions** tab on GitHub.
 
-## Dépendances
+## Dependencies
 
 - `requests`
 - `beautifulsoup4`
 
-Installe-les localement si tu veux tester en local :
-
+Install them locally if you want to test on your machine:
 ```bash
 pip install -r requirements.txt
 ```
-
-## Licence
-
-Libre d’usage.
+## License
+Free to use.

@@ -1,4 +1,5 @@
 os_major_version,feature_release_version,release_full_name,release_date,release_date_format,build_number,full_version,kb
+Windows 11,25H2,Version 25H2 (OS build 26200),2026-09-14,September 2026,10.0.26200.9457,Windows 11 - Version 25H2 (OS build 26200),KB5129195
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-09-08,September 2026,10.0.26200.9445,Windows 11 - Version 25H2 (OS build 26200),KB5124008
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-08-27,August 2026,10.0.26200.9278,Windows 11 - Version 25H2 (OS build 26200),KB5120998
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-08-11,August 2026,10.0.26200.9168,Windows 11 - Version 25H2 (OS build 26200),KB5121003
@@ -28,6 +29,7 @@ Windows 11,25H2,Version 25H2 (OS build 26200),2025-10-28,October 2025,10.0.26200
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-10-20,October 2025,10.0.26200.6901,Windows 11 - Version 25H2 (OS build 26200),KB5070773
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-10-14,October 2025,10.0.26200.6899,Windows 11 - Version 25H2 (OS build 26200),KB5066835
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-09-30,September 2025,10.0.26200.6584,Windows 11 - Version 25H2 (OS build 26200),
+Windows 11,26H1,Version 26H1 (OS build 28000),2026-09-14,September 2026,10.0.28000.2956,Windows 11 - Version 26H1 (OS build 28000),KB5129194
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-09-08,September 2026,10.0.28000.2954,Windows 11 - Version 26H1 (OS build 28000),KB5124012
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-08-27,August 2026,10.0.28000.2804,Windows 11 - Version 26H1 (OS build 28000),KB5120996
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-08-11,August 2026,10.0.28000.2704,Windows 11 - Version 26H1 (OS build 28000),KB5121000
@@ -44,6 +46,7 @@ Windows 11,26H1,Version 26H1 (OS build 28000),2026-03-10,March 2026,10.0.28000.1
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-02-24,February 2026,10.0.28000.1643,Windows 11 - Version 26H1 (OS build 28000),KB5077239
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-02-10,February 2026,10.0.28000.1575,Windows 11 - Version 26H1 (OS build 28000),KB5077179
 Windows 11,26H1,Version 26H1 (OS build 28000),2026-02-10,February 2026,10.0.28000.1,Windows 11 - Version 26H1 (OS build 28000),
+Windows 11,24H2,Version 24H2 (OS build 26100),2026-09-14,September 2026,10.0.26100.9457,Windows 11 - Version 24H2 (OS build 26100),KB5129195
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-09-08,September 2026,10.0.26100.9445,Windows 11 - Version 24H2 (OS build 26100),KB5124008
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-08-27,August 2026,10.0.26100.9278,Windows 11 - Version 24H2 (OS build 26100),KB5120998
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-08-11,August 2026,10.0.26100.9168,Windows 11 - Version 24H2 (OS build 26100),KB5121003
@@ -102,6 +105,7 @@ Windows 11,24H2,Version 24H2 (OS build 26100),2024-11-12,November 2024,10.0.2610
 Windows 11,24H2,Version 24H2 (OS build 26100),2024-10-24,October 2024,10.0.26100.2161,Windows 11 - Version 24H2 (OS build 26100),KB5044384
 Windows 11,24H2,Version 24H2 (OS build 26100),2024-10-08,October 2024,10.0.26100.2033,Windows 11 - Version 24H2 (OS build 26100),KB5044284
 Windows 11,24H2,Version 24H2 (OS build 26100),2024-10-01,October 2024,10.0.26100.1742,Windows 11 - Version 24H2 (OS build 26100),
+Windows 11,23H2,Version 23H2 (OS build 22631),2026-09-14,September 2026,10.0.22631.7584,Windows 11 - Version 23H2 (OS build 22631),KB5129242
 Windows 11,23H2,Version 23H2 (OS build 22631),2026-09-08,September 2026,10.0.22631.7582,Windows 11 - Version 23H2 (OS build 22631),KB5122880
 Windows 11,23H2,Version 23H2 (OS build 22631),2026-08-11,August 2026,10.0.22631.7517,Windows 11 - Version 23H2 (OS build 22631),KB5120240
 Windows 11,23H2,Version 23H2 (OS build 22631),2026-07-14,July 2026,10.0.22631.7376,Windows 11 - Version 23H2 (OS build 22631),KB5099414
@@ -339,6 +343,7 @@ Windows 11,21H2,Version 21H2 (OS build 22000),2025-11-11,November 2025,10.0.2610
 Windows 11,21H2,Version 21H2 (OS build 22000),2025-12-09,December 2025,10.0.26100.7392,Windows 11 - Version 21H2 (OS build 22000),KB5072014
 Windows 11,21H2,Version 21H2 (OS build 22000),2024-11-12,November 2024,10.0.26100.2240,Windows 11 - Version 21H2 (OS build 22000),KB5046696
 Windows 11,21H2,Version 21H2 (OS build 22000),2024-12-10,December 2024,10.0.26100.2528,Windows 11 - Version 21H2 (OS build 22000),KB5048794
+Windows 11,25H2,Version 25H2 (OS build 26200),2026-09-14,September 2026,10.0.26200.9448,Windows 11 - Version 25H2 (OS build 26200 - OOB),KB5129241
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-08-11,August 2026,10.0.26200.9106,Windows 11 - Version 25H2 (OS build 26200 - Hotpatch),KB5120994
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-07-18,July 2026,10.0.26200.8893,Windows 11 - Version 25H2 (OS build 26200 - OOB),KB5121768
 Windows 11,25H2,Version 25H2 (OS build 26200),2026-05-12,May 2026,10.0.26200.8390,Windows 11 - Version 25H2 (OS build 26200 - Hotpatch),KB5089466
@@ -351,6 +356,7 @@ Windows 11,25H2,Version 25H2 (OS build 26200),2026-01-24,January 2026,10.0.26200
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-12-09,December 2025,10.0.26200.7392,Windows 11 - Version 25H2 (OS build 26200 - Hotpatch),KB5072014
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-11-20,November 2025,10.0.26200.7093,Windows 11 - Version 25H2 (OS build 26200 - OOB),KB5072753
 Windows 11,25H2,Version 25H2 (OS build 26200),2025-11-11,November 2025,10.0.26200.7092,Windows 11 - Version 25H2 (OS build 26200 - Hotpatch),KB5068966
+Windows 11,24H2,Version 24H2 (OS build 26100),2026-09-14,September 2026,10.0.26100.9448,Windows 11 - Version 24H2 (OS build 26100 - OOB),KB5129241
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-08-11,August 2026,10.0.26100.9106,Windows 11 - Version 24H2 (OS build 26100 - Hotpatch),KB5120994
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-07-18,July 2026,10.0.26100.8893,Windows 11 - Version 24H2 (OS build 26100 - OOB),KB5121768
 Windows 11,24H2,Version 24H2 (OS build 26100),2026-05-12,May 2026,10.0.26100.8390,Windows 11 - Version 24H2 (OS build 26100 - Hotpatch),KB5089466

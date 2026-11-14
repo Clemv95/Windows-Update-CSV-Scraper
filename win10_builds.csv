@@ -1,4 +1,5 @@
 os_major_version,feature_release_version,release_full_name,release_date,release_date_format,build_number,full_version,kb
+Windows 10,22H2,Version 22H2 (OS build 19045),2026-11-13,November 2026,10.0.19045.7850,Windows 10 - Version 22H2 (OS build 19045),KB5136493
 Windows 10,22H2,Version 22H2 (OS build 19045),2026-11-10,November 2026,10.0.19045.7846,Windows 10 - Version 22H2 (OS build 19045),KB5131096
 Windows 10,22H2,Version 22H2 (OS build 19045),2026-10-26,October 2026,10.0.19045.7811,Windows 10 - Version 22H2 (OS build 19045),KB5134125
 Windows 10,22H2,Version 22H2 (OS build 19045),2026-10-13,October 2026,10.0.19045.7807,Windows 10 - Version 22H2 (OS build 19045),KB5126657
@@ -91,6 +92,7 @@ Windows 10,22H2,Version 22H2 (OS build 19045),2022-12-13,December 2022,10.0.1904
 Windows 10,22H2,Version 22H2 (OS build 19045),2022-11-15,November 2022,10.0.19045.2311,Windows 10 - Version 22H2 (OS build 19045),KB5020030
 Windows 10,22H2,Version 22H2 (OS build 19045),2022-11-08,November 2022,10.0.19045.2251,Windows 10 - Version 22H2 (OS build 19045),KB5019959
 Windows 10,22H2,Version 22H2 (OS build 19045),2022-10-18,October 2022,10.0.19045.2130,Windows 10 - Version 22H2 (OS build 19045),
+Windows 10,21H2,Version 21H2 (OS build 19044),2026-11-13,November 2026,10.0.19044.7850,Windows 10 - Version 21H2 (OS build 19044),KB5136493
 Windows 10,21H2,Version 21H2 (OS build 19044),2026-11-10,November 2026,10.0.19044.7846,Windows 10 - Version 21H2 (OS build 19044),KB5131096
 Windows 10,21H2,Version 21H2 (OS build 19044),2026-10-26,October 2026,10.0.19044.7811,Windows 10 - Version 21H2 (OS build 19044),KB5134125
 Windows 10,21H2,Version 21H2 (OS build 19044),2026-10-13,October 2026,10.0.19044.7807,Windows 10 - Version 21H2 (OS build 19044),KB5126657
@@ -438,6 +440,7 @@ Windows 10,1903,Version 1903 (OS build 18362),2019-06-27,June 2019,10.0.18362.20
 Windows 10,1903,Version 1903 (OS build 18362),2019-06-11,June 2019,10.0.18362.175,Windows 10 - Version 1903 (OS build 18362),KB4503293
 Windows 10,1903,Version 1903 (OS build 18362),2019-05-29,May 2019,10.0.18362.145,Windows 10 - Version 1903 (OS build 18362),KB4497935
 Windows 10,1903,Version 1903 (OS build 18362),2019-05-21,May 2019,10.0.18362.116,Windows 10 - Version 1903 (OS build 18362),KB4505057
+Windows 10,1809,Version 1809 (OS build 17763),2026-11-13,November 2026,10.0.17763.9488,Windows 10 - Version 1809 (OS build 17763),KB5136490
 Windows 10,1809,Version 1809 (OS build 17763),2026-11-10,November 2026,10.0.17763.9487,Windows 10 - Version 1809 (OS build 17763),KB5131085
 Windows 10,1809,Version 1809 (OS build 17763),2026-10-26,October 2026,10.0.17763.9378,Windows 10 - Version 1809 (OS build 17763),KB5134124
 Windows 10,1809,Version 1809 (OS build 17763),2026-10-13,October 2026,10.0.17763.9376,Windows 10 - Version 1809 (OS build 17763),KB5126651
